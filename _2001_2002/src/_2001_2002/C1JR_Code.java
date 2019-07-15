@@ -34,7 +34,16 @@ public class C1JR_Code {
 						value += 26;
 					}
 					ans = (char)(value + 'A' - 1);
-									}
+				}
+				//alternate solution
+				/*
+				 * while(value > 26){
+				 * 	value -= 26;
+				 * }
+				 * ans value != 0 ? (char)(value + 'A' - 1) : '#';
+				 * System.out.println(ans);
+				 * 
+				 */
 				System.out.println(ans);
 			}
 			
