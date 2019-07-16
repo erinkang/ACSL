@@ -3,12 +3,12 @@ import java.util.*;
 import java.io.*;
 
 public class C1JR_Asterisks {
-	public static void main(String [] args) throws IOException{
+	public static void main(String [] args){
 		try {
 			Scanner in = new Scanner(new File("0203c1jr.in"));
 			
 			//giant for-loop
-			for(int i = 0; i < 9; i++) {
+			for(int x = 0; x < 9; x++) {
 				String [] temp = in.nextLine().split(" ");
 				char fig = temp[0].charAt(0);
 				int [] nums = new int[2];
@@ -44,14 +44,14 @@ public class C1JR_Asterisks {
 		    for (int j = 0; j < i; j++) {    
 		        System.out.print(" ");
 		    }
-		    for (int j = i; j < height; j++) {    
+		    for (int j = i; j < height; j++) {   
 		        System.out.print("*");
 		    }
 		    System.out.println();
 		}
 	}
 	public static void figureL(int height) {
-		 for (int i = 0; i <= height; i++) {
+		 for(int i = 0; i <= height; i++) {
 			 for (int j = 0; j < i; j++) {
 				 System.out.print("*");
 			 }
