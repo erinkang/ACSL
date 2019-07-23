@@ -26,10 +26,8 @@ public class C1JR_Bridge {
 					int under = (bid * 30) + 10;
 					int over = line * 30;
 					System.out.println(under + ", " + over);
-				}
-				
+				}	
 			}
-			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
