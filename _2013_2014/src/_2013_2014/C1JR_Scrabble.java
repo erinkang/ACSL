@@ -52,10 +52,9 @@ public class C1JR_Scrabble {
 					}
 					if(seven) {
 						sum *= 2;
-					} else if(eight) {
+					}
+					if(eight) {
 						sum *= 3;
-					} else {
-						//do nothing again we love laziness
 					}
 					System.out.println(sum);
 				}
