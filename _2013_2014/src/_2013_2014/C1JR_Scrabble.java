@@ -43,8 +43,6 @@ public class C1JR_Scrabble {
 							seven = true;
 						} else if(position[i] % 8 == 0) {
 							eight = true;
-						} else {
-							//do nothing
 						}
 					}
 					for(int j : worthy) {
