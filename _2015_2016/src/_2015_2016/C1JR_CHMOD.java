@@ -50,7 +50,6 @@ public class C1JR_CHMOD {
 				
 				System.out.print(first + "and " + combineSecond);
 				System.out.println();
-				
 			}
 		} catch(Exception e) {
 			e.printStackTrace();
